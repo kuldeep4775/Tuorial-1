@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deshbord"
+    android:background="@color/black">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="15dp">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to RK University"
+        android:layout_marginLeft="10mm"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:shadowColor="@color/white"
+        android:layout_marginTop="10mm"
+        android:shadowRadius="5" />
+
+   </RelativeLayout>
+</RelativeLayout>
